@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+    background-image:radial-gradient(white, #FFBB0F, black);
+    margin: 20;
+    color:Black;
+    text-align: center;
+    font-family:"Helvetica";
+}
+header{
+    background-color:white;
+    font-size:50px;
+}
+article div div {
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 5px;
+    display:block;
+}
+article div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h3{
+    font-size: 30px;
+}
+
+div.Science{
+    background-color:yellow;
+}
+div.Math{
+    background-color:orange;
+}
+div.English{
+    background-color:red;
+}
+div.Social{
+    background-color:green;
+}
+div.Career{
+    background-color:blue;
+}
+div.Art{
+    background-color:skyblue;
+}
+div.Physical{
+    background-color:purple;
+}
+div.World{
+    background-color:magenta;
+}
+div.Music{
+    background-color:white;
+}
+div.Special{
+    background-color:grey;
+}
